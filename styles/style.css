@@ -36,3 +36,57 @@ ul,
 ol {
   list-style: none;
 }
+
+.page {
+  padding: 133px 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  justify-content: stretch;
+  align-items: flex-start;
+  gap: 40px;
+
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  inline-size: 100%;
+  block-size: 100%;
+
+}
+
+.content__list {
+  height: 298px;
+  overflow-y: scroll;
+}
+
+.title {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
