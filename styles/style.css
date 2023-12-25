@@ -301,7 +301,7 @@ input[type="checkbox"]:checked+span::before {
 }
 
 .content__video-card-description-container {
-  inline-size: 100%;
+  max-inline-size: 200px;
 }
 
 .content__video-card-thumbnail {
