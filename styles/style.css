@@ -129,17 +129,33 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
   width: 19px;
   height: 19px;
-  background-color: #fff;
+  border: 1px solid #fff
 }
 
 .search-form__label-text {
   padding-left: 5px;
 }
 
+.button {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: transparent;
+  border: 1px solid #fff;
+  min-height: 34px;
+  cursor: pointer;
+}
 
+.search-form__submit-button {
+  width: 194px;
+  align-self: flex-end;
+}
 
 .content__details {
   display: flex;
