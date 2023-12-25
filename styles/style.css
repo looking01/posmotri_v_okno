@@ -131,7 +131,7 @@ ol {
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid #fff
+  border: 1px solid #fff;
 }
 
 .search-form__label-text {
@@ -189,6 +189,10 @@ ol {
 
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.more-button {
+  width: 399px;
 }
 
 .content__card-link {
