@@ -99,6 +99,12 @@ ol {
   appearance: none;
 }
 
+.search-form__label:hover
+  .search-form__pseudo-checkbox 
+  ~.search-form__label-text {
+  text-decoration: underline;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 3px;
