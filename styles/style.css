@@ -182,6 +182,19 @@ input[type="checkbox"]:checked + span {
   cursor: pointer;
 }
 
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 3px;
+}
+
 .search-form__submit-button {
   width: 194px;
   align-self: flex-end;
@@ -226,8 +239,13 @@ input[type="checkbox"]:checked + span {
 }
 
 .content__card-link {
+  display: block;
   color: #fff;
   text-decoration: none;
+}
+
+.content__card-link_current {
+  background-color: #545050 ;
 }
 
 .content__video-card {
