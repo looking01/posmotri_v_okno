@@ -139,10 +139,23 @@ ol {
   font-style: normal;
 }
 
+/*
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
+} */
+
+input[type="checkbox"] + span {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #fff;
+}
+
+input[type="checkbox"]:checked + span {
+  outline: 1px solid #000;
+  outline-offset: -2px;
+  background-color: #fff;
 }
 
 .search-form__label-text {
