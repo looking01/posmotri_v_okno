@@ -97,7 +97,6 @@ ol {
   width: fit-content;
   cursor: pointer;
   align-items: center;
-  gap: 5px;
 }
 
 .search-form__checkbox-list {
@@ -134,6 +133,10 @@ ol {
   height: 19px;
   background-color: #fff;
   vertical-align: middle;
+}
+
+.search-form__label-text {
+  padding-left: 5px;
 }
 
 .content__details {
