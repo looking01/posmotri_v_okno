@@ -9,6 +9,10 @@ html {
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -115,6 +119,7 @@ ol {
 
 .search-form__textfield {
   background-color: #fff;
+  color: #fff;
   font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -182,6 +187,10 @@ input[type="checkbox"]:checked+span::before {
   border: 1px solid currentColor;
   min-block-size: 34px;
   cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .button:hover {
@@ -305,6 +314,8 @@ input[type="checkbox"]:checked+span::before {
 }
 
 .content__video-card-thumbnail {
+  object-fit: cover;
+  object-position: center;
   inline-size: 194px;
   block-size: 103px;
   flex-shrink: 1;
